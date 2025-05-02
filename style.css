@@ -1,0 +1,20 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/f0/5b/67/f05b6701811dfd9cfdc96456eadcf1ab.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: brown;
+}
+label{
+    color: brown;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: green;
+    border: none;
+    color: brown;
+
+}

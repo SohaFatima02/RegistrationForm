@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form> <center>
+        <h1>REGISTRATION FORM </h1>
+
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="fatherName">Father Name:</label><br>
+        <input type="text" id="fatherName" name="fatherName" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <p>Please choose Gender:</p>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <input type="radio" id="na" name="gender" value="Prefer not to say">
+        <label for="na">Prefer not to say</label><br><br>
+
+        <p>Please select your Qualification:</p>
+        <select name="qualification">
+            <option value="Secondary School">Secondary School</option>
+            <option value="High School">High School</option>
+            <option value="Bachelors">Bachelors</option>
+            <option value="Masters">Masters</option>
+        </select><br><br>
+
+        <label for="comments">Please write the comment below:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter your comments..."></textarea><br><br>
+
+        <label for="image">Enter your image:</label><br>
+        <input type="file" id="image" name="image"><br><br>
+
+        <label for="color">Your favorite colour:</label><br>
+        <input type="color" id="color" name="color"><br><br>
+
+        <button onclick="soha()">SUBMIT</button> </center>
+        
+
+        <script>
+            function soha() {
+                alert("submited succesfully")
+            }
+        </script>
+        
+    </form>
+</body>
+</html>
